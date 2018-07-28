@@ -1,0 +1,102 @@
+node
+node
+node
+git stattH
+git push
+git push --set-upstream origin feature/config-deep-merge
+ls
+cd ../../
+ls
+cd sandbox/merge/
+ls
+node index.js 
+cd ../../nodejs-skeleton/
+git status
+git checkout .
+git status
+clear
+ls
+ls -l
+git status
+ls
+ls project/
+cd project/
+ls
+cd target/
+ls
+cd config-classes/
+ls
+cd ..\cd ..
+cd ..
+cd ..
+cd ..
+rm -rf project/
+ls
+git status
+git branch
+git rebase master
+git checkout master
+git status
+git merge --ff-only feature/config-deep-merge
+cd ../operations/
+ls
+cd cmdtools/
+ls
+cat version-bump.sh 
+git tag
+cd ..
+cd ../nodejs-skeleton/
+ls
+git tag
+git fetch
+git tag
+git tag -a v5.6.0
+git push --tags
+git status
+git push
+git diff
+git log
+git checkout feature/config-deep-merge
+git status
+git log
+clear
+node
+npm i
+clear
+npm init
+npm install react react-dom
+npm i -S react react-dom
+npm install -g create-react-app
+cd ..
+rm -rf test
+create-react-app test
+cd ../json-gate/
+npm init
+npm install -S json-gate
+npm i -S json-gate
+npm install json-gate
+ls
+rm package.json 
+npm install json-gate
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+node index.js
+ls
+cd ../../
+ls
+git clone git@github.com:bigpandaio/bam.git
+ls
+cd bash/
+cd ../bam
+ls
+npm install
+ls

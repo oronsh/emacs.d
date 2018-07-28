@@ -17,7 +17,7 @@
   (when (< emacs-major-version 24)
     ;; For important compatibility libraries like cl-lib
     (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
-(package-initialize)
+;(package-initialize)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/darkplus-emacs")
 
@@ -148,9 +148,10 @@
   )
 (add-hook 'web-mode-hook  'my-web-mode-hook)
 
-
+(setq web-mode-content-types-alist
+  '(("jsx" . "\\.js[x]?\\'")))
 ;; use web-mode for .jsx files
-(add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.js$" . web-mode))
 
 ;; http://www.flycheck.org/manual/latest/index.html
 (require 'flycheck)
